@@ -20,6 +20,14 @@ Each folder contains images and corresponding masks for training, validation, an
 
 This project was developed by implementing all necessary functions and the UNet architecture from scratch. The UNet model was trained to perform semantic segmentation, specifically identifying and segmenting football players from the background in the images.
 
+### Key Frameworks and Libraries
+
+- **PyTorch**: Used for building and training the custom UNet model.
+- **Torchvision**: Utilized for image transformations and augmentations.
+- **NumPy**: Employed for numerical operations and data manipulation.
+- **Matplotlib**: Used for visualizing the results, including loss curves and segmentation outputs.
+- **PIL (Python Imaging Library)**: Applied for image processing tasks such as resizing and cropping.
+
 ### Key Features
 
 - **Custom UNet Architecture**: The UNet model was implemented from scratch, with custom layers and modules.
@@ -40,6 +48,3 @@ This project successfully demonstrates the ability to perform semantic segmentat
 - [Football Player Segmentation Dataset on Kaggle](https://www.kaggle.com/datasets/ihelon/football-player-segmentation)
 - [UNet: Convolutional Networks for Biomedical Image Segmentation](https://arxiv.org/abs/1505.04597)
 
-## License
-
-This project is open-source and available under the MIT License.
